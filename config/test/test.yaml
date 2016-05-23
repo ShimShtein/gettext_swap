@@ -1,0 +1,7 @@
+swap:
+  - search: '\bForeman\b(?!-)'
+    replace: 'Satellite'
+  - search: '\bsmart proxy\b(?!-)'
+    replace: 'capsule'
+  - search: '\bproxy\b(?!-)'
+    replace: 'Capsule'
