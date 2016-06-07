@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Shimon Shtein\n']
   spec.email         = ['sshtein@redhat.com']
   spec.homepage      = 'https://github.com/shimshtein/gettext_swap'
+  spec.license       = 'GPL-3.0'
 
   spec.summary       = 'Replaces words from strings marked for translation'
   spec.description   = <<-DESC
@@ -24,9 +25,9 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.11'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'minitest'
-  spec.add_development_dependency 'rubocop'
+  spec.add_development_dependency 'minitest', '~> 5'
+  spec.add_development_dependency 'rubocop', '~> 0'
 
-  spec.add_dependency 'fast_gettext'
-  spec.add_dependency 'activesupport'
+  spec.add_dependency 'fast_gettext', '~> 1'
+  spec.add_dependency 'activesupport', '~> 4'
 end
